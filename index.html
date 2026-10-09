@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Maya</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+min-height:100vh;
+padding:24px 12px;
+display:flex;
+justify-content:center;
+align-items:center;
+background:radial-gradient(ellipse at top,#38202d,#100b10 55%,#050505);
+color:#fff4ef;
+font-family:Georgia,"Times New Roman",serif;
+}
+
+.card{
+width:100%;
+max-width:480px;
+padding:30px 22px;
+text-align:center;
+position:relative;
+overflow:hidden;
+border:1px solid #bd8b83;
+border-radius:22px;
+background:linear-gradient(150deg,#21141b,#0d0b0e 65%,#1e1117);
+box-shadow:0 15px 55px #000a,0 0 30px #b76e8020;
+}
+
+.card:before{
+content:"";
+position:absolute;
+inset:8px;
+border:1px solid #bd8b8340;
+border-radius:16px;
+pointer-events:none;
+}
+
+.ornament{color:#e5b6ad;font-size:24px}
+.kicker{
+margin-top:12px;
+color:#e5b6ad;
+font:10px Arial,sans-serif;
+letter-spacing:3px;
+}
+
+h1{
+margin:8px 0;
+font-size:clamp(42px,12vw,60px);
+letter-spacing:5px;
+color:#f0c8be;
+text-shadow:0 0 22px #c7828b55;
+}
+
+.subtitle{
+font:11px Arial,sans-serif;
+letter-spacing:2px;
+color:#d7b9b7;
+}
+
+.divider{
+width:75%;
+height:1px;
+margin:20px auto;
+background:linear-gradient(90deg,transparent,#d9a7a0,transparent);
+}
+
+.photo{
+width:100%;
+min-height:100px;
+max-height:440px;
+margin:0 auto 20px;
+border:1px solid #bd8b8370;
+border-radius:14px;
+background:#130f12;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+}
+
+.photo img{
+display:block;
+width:100%;
+height:auto;
+max-height:440px;
+object-fit:contain;
+}
+
+.photo-note{
+padding:18px;
+color:#bfa9ad;
+font:12px Arial,sans-serif;
+line-height:1.6;
+}
+
+.intro{
+font-size:15px;
+line-height:1.85;
+color:#f2e7e6;
+}
+
+.pink{color:#f0b8c1;font-weight:bold}
+
+.features{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin:22px 0;
+}
+
+.feature{
+padding:15px 9px;
+border:1px solid #bd8b8338;
+border-radius:13px;
+background:#ffffff05;
+}
+
+.emoji{font-size:23px;margin-bottom:8px}
+
+.feature h2{
+margin-bottom:7px;
+color:#e9b8b0;
+font:10px Arial,sans-serif;
+letter-spacing:1.5px;
+}
+
+.feature p{
+color:#d5c6c9;
+font-size:12px;
+line-height:1.6;
+}
+
+.wish{
+padding:18px 14px;
+border:1px solid #bd8b8355;
+border-radius:15px;
+background:linear-gradient(135deg,#a75f741c,#ffffff03);
+font-size:14px;
+line-height:1.85;
+}
+
+.footer{
+margin-top:21px;
+color:#c7a7ab;
+font:9px Arial,sans-serif;
+letter-spacing:2px;
+}
+
+.sparkles{
+color:#e9b6b8;
+letter-spacing:13px;
+margin:16px 0;
+animation:glow 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+from{opacity:.45;text-shadow:0 0 3px #d9a7a0}
+to{opacity:1;text-shadow:0 0 14px #e7a8ba}
+}
+
+@media(max-width:360px){
+.card{padding:25px 15px}
+.features{gap:7px}
+.feature{padding:12px 6px}
+}
+</style>
+</head>
+
+<body>
+<main class="card">
+
+<div class="ornament">✧ ♡ ✧</div>
+<div class="kicker">A LITTLE CELEBRATION OF YOU</div>
+<h1>MAYA</h1>
+<div class="subtitle">HAPPY BIRTHDAY, BEAUTIFUL ✦</div>
+
+<div class="divider"></div>
+
+<div class="photo">
+<img src="maya.jpg" alt="Maya's birthday photo"
+onerror="this.style.display='none';
+this.parentElement.innerHTML=
+'<div class="photo-note">♡ Maya’s photo will appear here ♡<br>Put her picture beside index.html and name it maya.jpg</div>';">
+</div>
+
+<p class="intro">
+Happy Birthday, <span class="pink">Maya!</span> 🎂
+<br><br>
+Some people have a beauty that catches the eye,
+and a personality that makes them even more special.
+You have that lovely kind of charm.
+May your new year be filled with love, laughter,
+unforgettable memories and wonderful surprises.
+</p>
+
+<div class="sparkles">✧ ✦ ✧</div>
+
+<div class="features">
+<section class="feature">
+<div class="emoji">👑</div>
+<h2>YOUR BEAUTY</h2>
+<p>Your gorgeous hair, beautiful eyes and lovely lips
+make your look truly memorable.</p>
+</section>
+
+<section class="feature">
+<div class="emoji">🌹</div>
+<h2>YOUR SMILE</h2>
+<p>May your pretty smile never fade
+and always find a reason to shine.</p>
+</section>
+
+<section class="feature">
+<div class="emoji">✨</div>
+<h2>YOUR FUTURE</h2>
+<p>May every goal bring you closer
+to the successful life you dream of.</p>
+</section>
+
+<section class="feature">
+<div class="emoji">💗</div>
+<h2>YOUR HAPPINESS</h2>
+<p>May you always be loved, respected,
+healthy and genuinely happy.</p>
+</section>
+</div>
+
+<div class="wish">
+<span class="pink">A special wish for you ♡</span>
+<br>
+May this year bring you beautiful opportunities,
+peaceful days, loyal people and countless reasons
+to feel proud of yourself.
+Never stop glowing, Maya. You deserve a life
+as lovely as the happiness you bring to others.
+<br><br>
+<span class="pink">Keep glowing. Keep growing. Keep being YOU.</span>
+</div>
+
+<div class="divider"></div>
+
+<p class="intro">
+Wishing you the sweetest birthday and an amazing year ahead.
+May all the good things you hope for find their way to you. ❤️
+</p>
+
+<div class="footer">MADE WITH LOVE • JUST FOR MAYA</div>
+<div class="ornament" style="margin-top:14px">♡ ✧ ♡</div>
+
+</main>
+</body>
+</html>
